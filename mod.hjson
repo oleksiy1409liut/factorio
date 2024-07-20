@@ -1,1 +1,17 @@
-
+{
+  "name": "factorio"
+  "displayName": "factorio"
+  "author":
+    '''
+    oleksiy (solo mod it) 
+    '''
+  "description":
+    '''
+mod focused to add all content of factorio and maybe some modded factorio content
+    '''
+  "subtitle": "for broke people and for fun!"
+  "version": "0.001"
+  "hidden": false
+  "minGameVersion": 136
+  "dependencies": []
+}
