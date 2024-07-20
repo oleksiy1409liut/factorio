@@ -8,7 +8,7 @@ isFirstTier: true
 size: 2
 squareSprite: true
 alwaysUnlocked: true
-unitType: spooder
+unitType: alpha
 health: 1000
 itemCapacity: 600
 unitCapModifier: 8
