@@ -1,1 +1,21 @@
-
+type: CoreBlock
+name: Core: solumna
+description: you crashed on a panet named solus
+requirements: [
+  copper/300
+]
+isFirstTier: true
+size: 2
+squareSprite: true
+alwaysUnlocked: true
+unitType: spooder
+health: 1000
+itemCapacity: 600
+unitCapModifier: 8
+category: effect
+research: {
+  planet: solus
+  root: true
+  name: solus
+  requiresUnlock: false
+}
