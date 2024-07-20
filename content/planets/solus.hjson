@@ -1,0 +1,97 @@
+localizedName: solus
+description: nah this planet sucks
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: solus
+    divisions: 2
+    seed: 7
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 4.8
+    persistence: 0.4
+  }
+  {
+    //lead
+    type: NoiseMesh
+    planet: solus
+    divisions: 8
+    radius: 0.55
+    seed: 94
+    color1: 919191
+    color2: 808080
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //copper
+    type: NoiseMesh
+    planet: solus
+    seed: 68
+    divisions: 5
+    color1: 5F5F5F
+    color2: A7A7A7
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+]
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 3
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 999
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: 666359
+iconColor: 666359
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+launchCandidates: []
+hiddenItems:[
+beryllium, 
+copper,
+lead,
+titanium,
+thorium,
+carbide,
+tungsten,
+oxide,
+]
