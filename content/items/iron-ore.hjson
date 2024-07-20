@@ -1,0 +1,9 @@
+name: iron ore
+description: iron ore that can be smelted into plates and then used in... big stuff...
+hardness: 4
+cost: 1.1
+healthScaling: 0.2
+explosiveness: 0
+radioactivity: 0
+color: dad2ca
+research: core-spawn
